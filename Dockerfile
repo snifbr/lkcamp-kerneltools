@@ -20,4 +20,7 @@ RUN set -x \
                    iproute2                     \
                    python3                      \
                    python3-pip                  \
-	&& rm -rf /var/lib/apt/lists/*
+                   python3-setuptools           \
+                   vim                          \
+	&& rm -rf /var/lib/apt/lists/*          \
+	&& pip3 install git+https://github.com/ezequielgarcia/virtme.git
