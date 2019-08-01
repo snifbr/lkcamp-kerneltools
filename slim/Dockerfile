@@ -22,5 +22,7 @@ RUN set -x \
                    python3-pip                  \
                    python3-setuptools           \
                    vim                          \
+                   libmailtools-perl            \
+                   git-email                    \
   && rm -rf /var/lib/apt/lists/*                \
   && pip3 install git+https://github.com/ezequielgarcia/virtme.git
