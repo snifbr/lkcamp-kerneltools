@@ -20,4 +20,5 @@ RUN set -x \
                    iproute2                     \
                    python3                      \
                    python3-pip                  \
+                   python3-setuptools           \
   && rm -rf /var/lib/apt/lists/*
