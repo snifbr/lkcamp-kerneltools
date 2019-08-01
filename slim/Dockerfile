@@ -21,5 +21,6 @@ RUN set -x \
                    python3                      \
                    python3-pip                  \
                    python3-setuptools           \
+                   vim                          \
   && rm -rf /var/lib/apt/lists/*                \
   && pip3 install git+https://github.com/ezequielgarcia/virtme.git
