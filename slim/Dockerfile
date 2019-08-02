@@ -25,5 +25,7 @@ RUN set -x \
                    libmailtools-perl            \
                    libauthen-sasl-perl          \
                    git-email                    \
+                   libauthen-sasl-perl          \
+                   libmime-base64-urlsafe-perl  \
   && rm -rf /var/lib/apt/lists/*                \
   && pip3 install git+https://github.com/ezequielgarcia/virtme.git
